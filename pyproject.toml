@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adbook"
+version = "0.1.0"
+description = ""
+authors = ["ivan-markovskyi <ivan.markovskyi.in@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+prompt-toolkit = "^3.0.39"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
